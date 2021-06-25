@@ -20,7 +20,7 @@
 * 備註 :  
     * Dry.wav為未處理的
     * Wet.wav為演算後的
-    * Final.wav為經Dry/Wet調整後的
+    * Final.wav為經Dry/Wet調整後的  
 ![image](https://github.com/LILRAY0826/Convolution_Reverb/blob/main/Pic/GUI.jpg?raw=true)  
 
 ---  
