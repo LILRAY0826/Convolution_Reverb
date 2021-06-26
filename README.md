@@ -39,7 +39,9 @@
 ```python
 convolve(sample[0] * gain_dry, reverb[0] * gain_wet, method='fft')  
 ```  
-演算法中此行代碼為主要，**快速傅立葉轉換FFT**&**卷積Cvolution**在此完成，也是按下Process時，需要等候的原因。
+演算法中此行代碼為主要，**快速傅立葉轉換FFT**&**卷積Cvolution**在此完成，也是按下Process時，需要等候的原因。  
+#### 平行處理
+Dry/Wet Slider的調控是利用混音上平行壓縮Parallel Compression的想法，將Dry的信號加上Wet的信號，再做輸出。
 
 ---
 ## 總結  
