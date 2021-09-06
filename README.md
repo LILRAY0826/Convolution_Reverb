@@ -1,6 +1,6 @@
 # Convolution Reverb
 
-## 前言  
+## Abstract  
 * **Convolution Reverb---Convolution Reverb** The relevant Plug-ins on the market are also called **IR Reverb (Impluse Response Reverb)**. This algorithm uses **Fast Fourier transform Fast Fourier Transform** obtains the audio frequency, and then uses the mathematical operation method of **Convolution convolution** to obtain the frequency distribution of Audio in the IR, and write the result of the calculation.
 ---
 ## Usage  
