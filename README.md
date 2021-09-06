@@ -46,7 +46,7 @@ IR refers to the response of a piece of audio in a space. Usually, the method of
 The control of Dry/Wet Slider is to use the idea of parallel compression Parallel Compression on the mix, adding the signal of Dry to the signal of Wet, and then outputting it.
 
 ---
-## Sumarize 
+## Summarize 
 **In the code of Convolution_Reverb.py, there are labels for detailed purposes. Those who don’t understand can read the labels at the back to help understand the algorithm process. **
 There are many areas where this algorithm can be optimized:
 * Increase the calculation speed. This time I use the scipy.signal.convolve function. In the future, you can write a Fourier transformation and convolution process by yourself.
